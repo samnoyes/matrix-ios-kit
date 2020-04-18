@@ -685,7 +685,7 @@
                     width = minSize;
                     height = minSize;
                 }
-                
+                /*
                 UIWebView *animatedGifViewer = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, width, height)];
                 animatedGifViewer.center = cell.customView.center;
                 animatedGifViewer.opaque = NO;
@@ -695,7 +695,7 @@
                 animatedGifViewer.autoresizingMask = (UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin);
                 animatedGifViewer.userInteractionEnabled = NO;
                 [cell.customView addSubview:animatedGifViewer];
-                
+                */
                 UIImageView *previewImage = [[UIImageView alloc] initWithFrame:animatedGifViewer.frame];
                 previewImage.contentMode = animatedGifViewer.contentMode;
                 previewImage.autoresizingMask = animatedGifViewer.autoresizingMask;
